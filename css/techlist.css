@@ -19044,7 +19044,7 @@ readers do not read off random characters that represent icons */
 }
 
 .splash-container .title-container {
-  background-color: rgba(80, 0, 0, 0.75);
+  background-color: #1e6b52;
 }
 
 .splash-container .brand-container {
@@ -19392,7 +19392,7 @@ readers do not read off random characters that represent icons */
 .div-it-footer {
   font-size: 0.875rem;
   color: #fff;
-  background-color: #500;
+  background-color: #1e6b52;
 }
 
 .div-it-footer .tam-logo {
