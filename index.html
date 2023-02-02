@@ -1,40 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="Technology Services, Texas A&amp;M University">
-	<meta name="keywords" content="get started, techlist, tech, list, information technology, computer, printer, router, smart phone, WiFi, wireless">
-	<meta name="description" content="Requirements and recommendations about internet connected devices at Texas A&amp;M University.">
-	<title>New Aggie TechList</title>
-	<link href="apple-touch-icon.png" rel="apple-touch-icon">
-	<link href="favicon.ico" rel="icon" type="image/x-icon">
-	<link href="css/techlist.css" rel="stylesheet">
-	<style>
-		/* Make body relative for scrollspy */
-		body {
-			position: relative;
-		}
-		/* Hide all tabs initially */
-		.tab {
-			display: none;
-		}
-	</style>
-	</head>
-<body class="techlist" data-spy="scroll" data-target="#sidebarnav" data-offset="5">
-		<div class="position-absolute w-100 d-flex justify-content-center" role="region" aria-labelledby="skip-button"><a href="#skip-to-content" class="btn btn-secondary sr-only sr-only-focusable p-1" id="skip-button">Skip to content</a></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="author"
+      content="Technology Services, Texas A&amp;M University"
+    />
+    <meta
+      name="keywords"
+      content="get started, techlist, tech, list, information technology, computer, printer, router, smart phone, WiFi, wireless"
+    />
+    <meta
+      name="description"
+      content="Requirements and recommendations about internet connected devices at Texas A&amp;M University."
+    />
+    <title>UAB Techlist</title>
+    <link href="apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/techlist.css" rel="stylesheet" />
+    <style>
+      /* Make body relative for scrollspy */
+      body {
+        position: relative;
+      }
+      /* Hide all tabs initially */
+      .tab {
+        display: none;
+      }
+    </style>
+  </head>
+  <body
+    class="techlist"
+    data-spy="scroll"
+    data-target="#sidebarnav"
+    data-offset="5"
+  >
+    <div
+      class="position-absolute w-100 d-flex justify-content-center"
+      role="region"
+      aria-labelledby="skip-button"
+    >
+      <a
+        href="#skip-to-content"
+        class="btn btn-secondary sr-only sr-only-focusable p-1"
+        id="skip-button"
+        >Skip to content</a
+      >
+    </div>
 
-	
-	<!--
+    <!--
 		=======================================
 		Splash Page
 		=======================================
 	-->
 
-	<div class="splash-container min-vh-100" id="skip-to-content" role="banner" aria-label="banner">
-		<div class="d-inline-block mt-5 py-3 px-4 pl-lg-5 title-container">
-			<!--
+    <div
+      class="splash-container min-vh-100"
+      id="skip-to-content"
+      role="banner"
+      aria-label="banner"
+    >
+      <div
+        class="d-inline-block mt-5 py-3 px-4 pl-lg-5 title-container"
+      >
+        <!--
 			<div class="d-flex justify-content-center justify-content-lg-start mb-3 brand-container">
 				<a class="d-block brand" href="https://it.tamu.edu/" target="_blank">
 					<img class="d-none d-print-block logo" src="images/TAM-Logo-Box.png" alt="TAMU"/>
@@ -45,378 +79,685 @@
 				</a>
 			</div>
 			-->
-			<div class="lockup-wrapper-dark">
-				<a class="brand-lockup" href="https://it.tamu.edu/" target="_blank">
-					<div class="d-flex flex-column justify-content-center vert-lockup">
-						<div class="tamu-lockup">Texas A&amp;M University</div>
-						<div class="dept-lockup">Technology Services</div>
-					</div>
-				</a>
-			</div>
-			<h1 class="text-uppercase techlist-h1-white text-center text-lg-left mb-3 title">New Aggie TechList</h1>
-			<h2 class="techlist-h2-tan text-center text-lg-left mb-3 subtitle">Tackle your new semester with tailored IT advice</h2>
-			<p class="d-print-none text-center text-lg-left">
-				<button class="btn btn-outline-white " role="button" onclick="getElementById('skip-to-content').classList.add('d-none'); nextPrev(0);">Get Started</button>
-			</p>
-		</div>
-	</div>
+        <div class="lockup-wrapper-dark">
+          <a
+            class="brand-lockup"
+            href="https://uab.edu"
+            target="_blank"
+          >
+            <div
+              class="d-flex flex-column justify-content-center vert-lockup"
+            >
+              <div class="tamu-lockup">UAB</div>
+              <div class="dept-lockup">Information Technology</div>
+            </div>
+          </a>
+        </div>
+        <h1
+          class="text-uppercase techlist-h1-white text-center text-lg-left mb-3 title"
+        >
+          New UAB Techlist
+        </h1>
+        <h2
+          class="techlist-h2-tan text-center text-lg-left mb-3 subtitle"
+        >
+          Tackle your new semester with tailored IT advice
+        </h2>
+        <p class="d-print-none text-center text-lg-left">
+          <button
+            class="btn btn-outline-white"
+            role="button"
+            onclick="getElementById('skip-to-content').classList.add('d-none'); nextPrev(0);"
+          >
+            Get Started
+          </button>
+        </p>
+      </div>
+    </div>
 
-	<!--
+    <!--
 		=======================================
 		Form Questions
 		=======================================
 	-->
 
-	<div class="container-fluid form-pg-bg" id="form-questions" role="form" aria-label="form">
-		<div class="row justify-content-center">
-			<div class="col-lg-6">
-
-				<form id="techlistForm" name="tech-list-form" method="POST" action="index.php">
-
-					<div class="tab min-vh-100">
-						<!-- Progress Bar -->
-						<div class="text-center" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="4" aria-valuetext="Step 1: What's your major?">
-							<ul class="d-flex w-100 mt-5 p-0 tech-steps">
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--active">
-									<span class="tech-step--label">Major</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive">
-									<span class="tech-step--label">Housing</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								<!--
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive">
-									<span class="tech-step--label">Special</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								-->
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive">
-									<span class="tech-step--label">Tech</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-							</ul>
-						</div>
-
-						<h3 class="text-center mb-5">What's your major?</h3>
-
-						<div class="row">
-							<div class="col-lg-6 text-center">
-								<div class="d-flex flex-column">
-									<div class="button-radio">
-										<label for="college01" id="collegeLabel01" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college01" name="college" value="Engineering" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">Engineering</span>
-										</label>
-									</div>
-									<div class="button-radio">
-										<label for="college02" id="collegeLabel02" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college02" name="college" value="Architecture" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">Architecture</span>
-										</label>
-									</div>
-									<div class="button-radio">
-										<label for="college03" id="collegeLabel03" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college03" name="college" value="TAMU Health" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">TAMU Health</span>
-										</label>
-									</div>
-									<div class="button-radio">
-										<label for="college04" id="collegeLabel04" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college04" name="college" value="Geosciences" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">Geosciences</span>
-										</label>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 text-center">
-								<div class="d-flex flex-column">
-									<div class="button-radio">
-										<label for="college05" id="collegeLabel05" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college05" name="college" value="Veterinary Medicine" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">Veterinary Medicine</span>
-										</label>
-									</div>
-									<div class="button-radio">
-										<label for="college06" id="collegeLabel06" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college06" name="college" value="Agriculture and Life Sciences" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">Agriculture and Life Sciences</span>
-										</label>
-									</div>
-									<div class="button-radio">
-										<label for="college07" id="collegeLabel07" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-											<input id="college07" name="college" value="Other" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-											<span class="form-radio-text">Other</span>
-										</label>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="tab min-vh-100">
-						<!-- Progress Bar -->
-						<div class="text-center" role="progressbar" aria-valuenow="2" aria-valuemin="1" aria-valuemax="4" aria-valuetext="Step 2: Where will you live?">
-							<ul class="d-flex w-100 mt-5 p-0 tech-steps">
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive">
-									<span class="tech-step--label">Major</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--active">
-									<span class="tech-step--label">Housing</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								<!--
+    <div
+      class="container-fluid form-pg-bg"
+      id="form-questions"
+      role="form"
+      aria-label="form"
+    >
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form
+            id="techlistForm"
+            name="tech-list-form"
+            method="POST"
+            action="index.php"
+          >
+            <div class="tab min-vh-100">
+              <!-- Progress Bar -->
+              <div
+                class="text-center"
+                role="progressbar"
+                aria-valuenow="1"
+                aria-valuemin="1"
+                aria-valuemax="4"
+                aria-valuetext="Step 1: What's your major?"
+              >
+                <ul class="d-flex w-100 mt-5 p-0 tech-steps">
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--active"
+                  >
+                    <span class="tech-step--label">Major</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive"
+                  >
+                    <span class="tech-step--label">Housing</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                  <!--
 								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive">
 									<span class="tech-step--label">Special</span>
 									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
 								</li>
 								-->
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive"
+                  >
+                    <span class="tech-step--label">Tech</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                </ul>
+              </div>
+
+              <h3 class="text-center mb-5">What's your major?</h3>
+
+              <div class="row">
+                <div class="col-lg-6 text-center">
+                  <div class="d-flex flex-column">
+                    <div class="button-radio">
+                      <label
+                        for="college01"
+                        id="collegeLabel01"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college01"
+                          name="college"
+                          value="Engineering"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text"
+                          >Engineering</span
+                        >
+                      </label>
+                    </div>
+                    <div class="button-radio">
+                      <label
+                        for="college02"
+                        id="collegeLabel02"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college02"
+                          name="college"
+                          value="Architecture"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text"
+                          >Architecture</span
+                        >
+                      </label>
+                    </div>
+                    <div class="button-radio">
+                      <label
+                        for="college03"
+                        id="collegeLabel03"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college03"
+                          name="college"
+                          value="TAMU Health"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text"
+                          >TAMU Health</span
+                        >
+                      </label>
+                    </div>
+                    <div class="button-radio">
+                      <label
+                        for="college04"
+                        id="collegeLabel04"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college04"
+                          name="college"
+                          value="Geosciences"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text"
+                          >Geosciences</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <div class="d-flex flex-column">
+                    <div class="button-radio">
+                      <label
+                        for="college05"
+                        id="collegeLabel05"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college05"
+                          name="college"
+                          value="Veterinary Medicine"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text"
+                          >Veterinary Medicine</span
+                        >
+                      </label>
+                    </div>
+                    <div class="button-radio">
+                      <label
+                        for="college06"
+                        id="collegeLabel06"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college06"
+                          name="college"
+                          value="Agriculture and Life Sciences"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text"
+                          >Agriculture and Life Sciences</span
+                        >
+                      </label>
+                    </div>
+                    <div class="button-radio">
+                      <label
+                        for="college07"
+                        id="collegeLabel07"
+                        class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                      >
+                        <input
+                          id="college07"
+                          name="college"
+                          value="Other"
+                          onclick="addActive(this); nextPrev(1);"
+                          type="radio"
+                          class="form-radio-control"
+                        />
+                        <span class="form-radio-text">Other</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab min-vh-100">
+              <!-- Progress Bar -->
+              <div
+                class="text-center"
+                role="progressbar"
+                aria-valuenow="2"
+                aria-valuemin="1"
+                aria-valuemax="4"
+                aria-valuetext="Step 2: Where will you live?"
+              >
+                <ul class="d-flex w-100 mt-5 p-0 tech-steps">
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive"
+                  >
+                    <span class="tech-step--label">Major</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--active"
+                  >
+                    <span class="tech-step--label">Housing</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                  <!--
 								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive">
-									<span class="tech-step--label">Tech</span>
+									<span class="tech-step--label">Special</span>
 									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
 								</li>
-							</ul>
-						</div>
+								-->
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--inactive"
+                  >
+                    <span class="tech-step--label">Tech</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                </ul>
+              </div>
 
-						<h3 class="text-center mb-5">Where will you live?</h3>
+              <h3 class="text-center mb-5">Where will you live?</h3>
 
-						<div class="row">
-							<div class="col-lg-6 text-center">
-								<div class="button-radio">
-									<label for="campus01" id="campusLabel01" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-										<input id="campus01" name="campus" value="On" onclick="addActive(this); nextPrev(1);" type="radio" class="form-radio-control">
-										<span class="form-radio-text">On Campus</span>
-									</label>
-								</div>
-							</div>
-							<div class="col-lg-6 text-center">
-								<div class="button-radio">
-									<label for="campus02" id="campusLabel02" class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label">
-										<input id="campus02" name="campus" value="Off" onclick="addActive(this); nextPrev(3);" type="radio" class="form-radio-control">
-										<span class="form-radio-text">Off Campus</span>
-									</label>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg text-center">
-								<button type="button" class="btn btn-link text-black font-weight-bold" id="prevBtn01" onclick="nextPrev(-1)">
-									<span class="fas fa-arrow-left"></span>
-									Back
-								</button>
-							</div>
-						</div>
-					</div>
+              <div class="row">
+                <div class="col-lg-6 text-center">
+                  <div class="button-radio">
+                    <label
+                      for="campus01"
+                      id="campusLabel01"
+                      class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                    >
+                      <input
+                        id="campus01"
+                        name="campus"
+                        value="On"
+                        onclick="addActive(this); nextPrev(1);"
+                        type="radio"
+                        class="form-radio-control"
+                      />
+                      <span class="form-radio-text">On Campus</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <div class="button-radio">
+                    <label
+                      for="campus02"
+                      id="campusLabel02"
+                      class="px-1 btn btn-outline-techlist-maroon btn-block btn-sm form-radio-label"
+                    >
+                      <input
+                        id="campus02"
+                        name="campus"
+                        value="Off"
+                        onclick="addActive(this); nextPrev(3);"
+                        type="radio"
+                        class="form-radio-control"
+                      />
+                      <span class="form-radio-text">Off Campus</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg text-center">
+                  <button
+                    type="button"
+                    class="btn btn-link text-black font-weight-bold"
+                    id="prevBtn01"
+                    onclick="nextPrev(-1)"
+                  >
+                    <span class="fas fa-arrow-left"></span>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
 
-<!-- Removed screen 3 here -->
+            <!-- Removed screen 3 here -->
 
-					<div class="tab min-vh-100">
-						<!-- Progress Bar -->
-						<div class="text-center" role="progressbar" aria-valuenow="3" aria-valuemin="1" aria-valuemax="4" aria-valuetext="Step 3: Which tech items are you bringing?">
-							<ul class="d-flex w-100 mt-5 p-0 tech-steps">
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive">
-									<span class="tech-step--label">Major</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive">
-									<span class="tech-step--label">Housing</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-								<!--
+            <div class="tab min-vh-100">
+              <!-- Progress Bar -->
+              <div
+                class="text-center"
+                role="progressbar"
+                aria-valuenow="3"
+                aria-valuemin="1"
+                aria-valuemax="4"
+                aria-valuetext="Step 3: Which tech items are you bringing?"
+              >
+                <ul class="d-flex w-100 mt-5 p-0 tech-steps">
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive"
+                  >
+                    <span class="tech-step--label">Major</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive"
+                  >
+                    <span class="tech-step--label">Housing</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                  <!--
 								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--complete tech-step--inactive">
 									<span class="tech-step--label">Special</span>
 									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
 								</li>
 								-->
-								<li class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--active">
-									<span class="tech-step--label">Tech</span>
-									<span class="d-flex justify-content-center align-items-center tech-step--icon"></span>
-								</li>
-							</ul>
-						</div>
+                  <li
+                    class="d-flex flex-column flex-grow-1 justify-content-center align-items-center tech-step tech-step--incomplete tech-step--active"
+                  >
+                    <span class="tech-step--label">Tech</span>
+                    <span
+                      class="d-flex justify-content-center align-items-center tech-step--icon"
+                    ></span>
+                  </li>
+                </ul>
+              </div>
 
-						<h3 class="text-center mb-5">Which tech items are you bringing?<br/>Choose all that apply.</h3>
+              <h3 class="text-center mb-5">
+                Which tech items are you bringing?<br />Choose all
+                that apply.
+              </h3>
 
-						<div class="d-flex justify-content-center">
-							<div class="ml-5 p-3">
-								<div class="button-checkbox">
-									<label for="device01" id="deviceLabel01" class="d-flex align-items-center form-checkbox-label"><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
-										<input id="device01" name="devices[]" value="Computer" type="checkbox" class="form-checkbox-control">
-										<span class="pl-3 form-checkbox-text">Computer</span>
-									</label>
-								</div>
-								<div class="button-checkbox">
-									<label for="device02" id="deviceLable02" class="d-flex align-items-center form-checkbox-label"><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
-										<input id="device02" name="devices[]" value="Printer" type="checkbox" class="form-checkbox-control">
-										<span class="pl-3 form-checkbox-text">Printer</span>
-									</label>
-								</div>
-							</div>
-							<div class="p-3">
-								<div class="button-checkbox">
-									<label for="device03" id="deviceLabel03" class="d-flex align-items-center form-checkbox-label"><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
-										<input id="device03" name="devices[]" value="Router" type="checkbox" class="form-checkbox-control">
-										<span class="pl-3 form-checkbox-text">Router</span>
-									</label>
-								</div>
-								<div class="button-checkbox">
-									<label for="device04" id="deviceLabel04" class="d-flex mb-0 align-items-center form-checkbox-label"><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
-										<input id="device04" name="devices[]" value="Entertainment" type="checkbox" class="form-checkbox-control">
-										<span class="pl-3 form-checkbox-text" aria-describedby="device04Help">Entertainment Tech</span>
-									</label>
-									<small id="device04Help" class="pl-5 mt-n1 form-text techlist-maroon-text">(TVs, gaming systems, DVRs<br>and smart electronics)</small>
-								</div>
-							</div>
-						</div>
+              <div class="d-flex justify-content-center">
+                <div class="ml-5 p-3">
+                  <div class="button-checkbox">
+                    <label
+                      for="device01"
+                      id="deviceLabel01"
+                      class="d-flex align-items-center form-checkbox-label"
+                      ><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
+                      <input
+                        id="device01"
+                        name="devices[]"
+                        value="Computer"
+                        type="checkbox"
+                        class="form-checkbox-control"
+                      />
+                      <span class="pl-3 form-checkbox-text"
+                        >Computer</span
+                      >
+                    </label>
+                  </div>
+                  <div class="button-checkbox">
+                    <label
+                      for="device02"
+                      id="deviceLable02"
+                      class="d-flex align-items-center form-checkbox-label"
+                      ><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
+                      <input
+                        id="device02"
+                        name="devices[]"
+                        value="Printer"
+                        type="checkbox"
+                        class="form-checkbox-control"
+                      />
+                      <span class="pl-3 form-checkbox-text"
+                        >Printer</span
+                      >
+                    </label>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="button-checkbox">
+                    <label
+                      for="device03"
+                      id="deviceLabel03"
+                      class="d-flex align-items-center form-checkbox-label"
+                      ><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
+                      <input
+                        id="device03"
+                        name="devices[]"
+                        value="Router"
+                        type="checkbox"
+                        class="form-checkbox-control"
+                      />
+                      <span class="pl-3 form-checkbox-text"
+                        >Router</span
+                      >
+                    </label>
+                  </div>
+                  <div class="button-checkbox">
+                    <label
+                      for="device04"
+                      id="deviceLabel04"
+                      class="d-flex mb-0 align-items-center form-checkbox-label"
+                      ><!-- btn btn-outline-techlist-maroon btn-block btn-sm -->
+                      <input
+                        id="device04"
+                        name="devices[]"
+                        value="Entertainment"
+                        type="checkbox"
+                        class="form-checkbox-control"
+                      />
+                      <span
+                        class="pl-3 form-checkbox-text"
+                        aria-describedby="device04Help"
+                        >Entertainment Tech</span
+                      >
+                    </label>
+                    <small
+                      id="device04Help"
+                      class="pl-5 mt-n1 form-text techlist-maroon-text"
+                      >(TVs, gaming systems, DVRs<br />and smart
+                      electronics)</small
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="row">
-							<div class="col-lg text-center">
-								<input id="submitButton" name="submitButton" value="Get Results" type="submit" class="mt-2 w-50 btn btn-outline-techlist-maroon btn-sm">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg text-center">
-								<button type="button" class="btn btn-link text-black font-weight-bold" id="prevBtn03" onclick="nextPrev(-1)">
-									<span class="fas fa-arrow-left"></span>
-									Back
-								</button>
-							</div>
-						</div>
-					</div>
+              <div class="row">
+                <div class="col-lg text-center">
+                  <input
+                    id="submitButton"
+                    name="submitButton"
+                    value="Get Results"
+                    type="submit"
+                    class="mt-2 w-50 btn btn-outline-techlist-maroon btn-sm"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg text-center">
+                  <button
+                    type="button"
+                    class="btn btn-link text-black font-weight-bold"
+                    id="prevBtn03"
+                    onclick="nextPrev(-1)"
+                  >
+                    <span class="fas fa-arrow-left"></span>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
-				</form>
-			</div>
-		</div>
-	</div>
+    <footer class="div-it-footer">
+      <div class="container" id="footer">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="tam-logo text-center">
+              <a href="https://www.tamu.edu/" target="_blank"
+                >Texas A&amp;M University</a
+              >
+            </div>
+          </div>
+          <div class="col-lg">
+            <ul class="nav flex-column flex-md-row">
+              <li class="nav-item text-center">
+                <a
+                  class="nav-link"
+                  href="https://it.tamu.edu/"
+                  target="_blank"
+                  >Technology Services</a
+                >
+              </li>
+              <li class="nav-item text-center d-print-none">
+                <a
+                  class="nav-link"
+                  href="https://it.tamu.edu/sitemap.php"
+                  target="_blank"
+                  >Site Map</a
+                >
+              </li>
+              <li class="nav-item text-center d-print-none">
+                <a
+                  class="nav-link"
+                  href="https://it.tamu.edu/site-policies.php"
+                  target="_blank"
+                  >Site Policies</a
+                >
+              </li>
+              <li class="nav-item text-center d-print-none">
+                <a
+                  class="nav-link"
+                  href="https://itaccessibility.tamu.edu/"
+                  target="_blank"
+                  >Accessibility</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-	
-	<footer class="div-it-footer">
-		<div class="container" id="footer">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="tam-logo text-center">
-						<a href="https://www.tamu.edu/" target="_blank">Texas A&amp;M University</a>
-					</div>
-				</div>
-				<div class="col-lg">
-					<ul class="nav flex-column flex-md-row">
-						<li class="nav-item text-center"><a class="nav-link" href="https://it.tamu.edu/" target="_blank">Technology Services</a></li>
-						<li class="nav-item text-center d-print-none"><a class="nav-link" href="https://it.tamu.edu/sitemap.php" target="_blank">Site Map</a></li>
-						<li class="nav-item text-center d-print-none"><a class="nav-link" href="https://it.tamu.edu/site-policies.php" target="_blank">Site Policies</a></li>
-						<li class="nav-item text-center d-print-none"><a class="nav-link" href="https://itaccessibility.tamu.edu/" target="_blank">Accessibility</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<!-- Bootstrap Bundle includes Popper -->
-	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-	<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
-	<!-- <script src="js/jquery-3.5.1.min.js"></script> -->
-	<script src="js/jquery.min.js"></script>
-	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<!-- Used for 2021 NSC contest "In IT to WinIT" -->
-	<!--
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Bootstrap Bundle includes Popper -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
+    <!-- <script src="js/jquery-3.5.1.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Used for 2021 NSC contest "In IT to WinIT" -->
+    <!--
 	<script src="https://it.tamu.edu/assets/js/WinIT.js"></script>
 	<link href="https://it.tamu.edu/assets/css/WinIT.css" rel="stylesheet">
 	-->
-	<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-	<link href="https://it.tamu.edu/assets/css/micromodal.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <link
+      href="https://it.tamu.edu/assets/css/micromodal.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
 
-	<script>
-		function toClipboard() {
-			var copyTitle = document.getElementById("copyURL");
-			copyTitle.select();
-			copyTitle.setSelectionRange(0, 99999)
-			document.execCommand("copy");
-			//alert("Copied the text: " + copyTitle.value);
-		}
+    <script>
+      function toClipboard() {
+        var copyTitle = document.getElementById('copyURL');
+        copyTitle.select();
+        copyTitle.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+        //alert("Copied the text: " + copyTitle.value);
+      }
 
-		function addActive(x) {
-			// Add an "active" class to parent element
-			var cn = x.name; // child name
-			var ca = document.getElementsByName(cn); // all children with name cn
-			var i, p, pe;
-			for (i = 0; i < ca.length; i++) {
-				// Get parent element
-				p = ca[i].parentNode.id; // parent id
-				pe = document.getElementById(p); // parent element
-				// If a radio is checked...
-				if (ca[i].checked) {
-					// add an "active" class to its parent (label)
-					pe.classList.add("active");
-				} else {
-					// otherwise remove "active" class
-					pe.classList.remove("active");
-				}
-			}
-		}
+      function addActive(x) {
+        // Add an "active" class to parent element
+        var cn = x.name; // child name
+        var ca = document.getElementsByName(cn); // all children with name cn
+        var i, p, pe;
+        for (i = 0; i < ca.length; i++) {
+          // Get parent element
+          p = ca[i].parentNode.id; // parent id
+          pe = document.getElementById(p); // parent element
+          // If a radio is checked...
+          if (ca[i].checked) {
+            // add an "active" class to its parent (label)
+            pe.classList.add('active');
+          } else {
+            // otherwise remove "active" class
+            pe.classList.remove('active');
+          }
+        }
+      }
 
-		var currentTab = 0; // Current tab is set to be the first tab (0)
-		//showTab(currentTab); // Display the current tab
-		//document.getElementsByClassName("tab").style.display = "none"; // Initial all tabs display none
+      var currentTab = 0; // Current tab is set to be the first tab (0)
+      //showTab(currentTab); // Display the current tab
+      //document.getElementsByClassName("tab").style.display = "none"; // Initial all tabs display none
 
-		function showTab(n) {
-			// This function will display the specified tab of the form...
-			var x = document.getElementsByClassName("tab");
-			if (n>0) {
-			}
-			x[n].style.display = "block";
-		}
+      function showTab(n) {
+        // This function will display the specified tab of the form...
+        var x = document.getElementsByClassName('tab');
+        if (n > 0) {
+        }
+        x[n].style.display = 'block';
+      }
 
-		function nextPrev(n) {
-			// This function will figure out which tab to display
-			var x = document.getElementsByClassName("tab");
-			// Hide the current tab:
-			x[currentTab].style.display = "none";
-			// Increase or decrease the current tab by n:
-			currentTab = currentTab + n;
-			// if you have reached the end of the form...
-			if (currentTab >= x.length) {
-				// ... the form gets submitted:
-				document.getElementById("techlistForm").submit();
-				return false;
-			}
-			// Otherwise, display the correct tab:
-			showTab(currentTab);
-		}
+      function nextPrev(n) {
+        // This function will figure out which tab to display
+        var x = document.getElementsByClassName('tab');
+        // Hide the current tab:
+        x[currentTab].style.display = 'none';
+        // Increase or decrease the current tab by n:
+        currentTab = currentTab + n;
+        // if you have reached the end of the form...
+        if (currentTab >= x.length) {
+          // ... the form gets submitted:
+          document.getElementById('techlistForm').submit();
+          return false;
+        }
+        // Otherwise, display the correct tab:
+        showTab(currentTab);
+      }
 
-		function addNoOpener(link) {
-			let linkTypes = (link.getAttribute('rel') || '').split(' ');
-			if (!linkTypes.includes('noopener')) {
-				linkTypes.push('noopener');
-			}
-			link.setAttribute('rel', linkTypes.join(' ').trim());
-		}
+      function addNoOpener(link) {
+        let linkTypes = (link.getAttribute('rel') || '').split(' ');
+        if (!linkTypes.includes('noopener')) {
+          linkTypes.push('noopener');
+        }
+        link.setAttribute('rel', linkTypes.join(' ').trim());
+      }
 
-		function addNewTabMessage(link) {
-			if (!link.querySelector('.screen-reader-only')) {
-				link.insertAdjacentHTML('beforeend', '<span class="screen-reader-only">(opens in a new tab)</span>');
-			}
-		}
+      function addNewTabMessage(link) {
+        if (!link.querySelector('.screen-reader-only')) {
+          link.insertAdjacentHTML(
+            'beforeend',
+            '<span class="screen-reader-only">(opens in a new tab)</span>'
+          );
+        }
+      }
 
-		document.querySelectorAll('a[target="_blank"]').forEach(link => {
-			addNoOpener(link);
-			//addNewTabMessage(link);
-		});
+      document
+        .querySelectorAll('a[target="_blank"]')
+        .forEach((link) => {
+          addNoOpener(link);
+          //addNewTabMessage(link);
+        });
 
-		$(document).ready(function() {
-			// Toggle active class on buttons (labels) containing checkboxes
-			$( ".form-checkbox-control" ).click(function() {
-				$(this).parent().toggleClass("active");
-			});
-			// Show modal
-			$('#emailmodal').on('shown.bs.modal', function () {
-				$('#emailaddress').trigger('focus');
-			});
-
-		});
-	</script>
-		</body>
+      $(document).ready(function () {
+        // Toggle active class on buttons (labels) containing checkboxes
+        $('.form-checkbox-control').click(function () {
+          $(this).parent().toggleClass('active');
+        });
+        // Show modal
+        $('#emailmodal').on('shown.bs.modal', function () {
+          $('#emailaddress').trigger('focus');
+        });
+      });
+    </script>
+  </body>
 </html>
