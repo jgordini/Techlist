@@ -19044,7 +19044,7 @@ readers do not read off random characters that represent icons */
 }
 
 .splash-container .title-container {
-  background-color: #1e6b52;
+  background-color: (30,107,82,0.75);
 }
 
 .splash-container .brand-container {
